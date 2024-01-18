@@ -1,0 +1,27 @@
+{
+  "name": "telegram-downloader",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Roi",
+  "license": "MIT",
+  "description": "Este cliente descargará todos os documentos ou vídeos subidos ao chat ou canle especificada onde o usuario debe ter permisos de escritura. Recoméndase crear unha canle privada para os uso exclusivo deste cliente e reenviar aí os arquivos que se desexen descargar.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roicou/telegram-downloader.git"
+  },
+  "keywords": [
+    "telegram",
+    "downloader",
+    "airgram",
+    "node"
+  ],
+  "dependencies": {
+    "airgram": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
